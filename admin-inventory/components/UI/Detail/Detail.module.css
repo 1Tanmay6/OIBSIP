@@ -1,0 +1,73 @@
+.detail {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  background-color: #ceaeb0;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0px solid #000000;
+  transition: 0.1s ease-in-out all;
+}
+
+.detail:hover {
+  border: 1px solid #000000;
+  transition: 0.1s ease-in-out all;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.topdiv {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  margin-right: 100px;
+}
+
+.radial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  width: 20%;
+}
+
+.subDiv {
+  width: 75%;
+  border-right: 1px solid black;
+}
+
+.radialText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.radialNumber {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+.bottomdiv {
+  height: 40%;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  height: 50%;
+}
