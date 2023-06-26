@@ -1,5 +1,4 @@
-# Database and Razorpay Fixes
-  ## Database
+  # Database Fixes
   - In the **pages** folder change the following:
     
     ``` bash
