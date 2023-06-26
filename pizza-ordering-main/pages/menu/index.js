@@ -38,7 +38,7 @@ const Menu = ({ menuList }) => {
 
 export async function getStaticProps() {
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 

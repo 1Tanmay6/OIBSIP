@@ -8,8 +8,8 @@ async function handler(req, res) {
 
     console.log(data);
 
-    const uri =
-      "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+  const uri =
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
     const client = new MongoClient(uri);
 
@@ -31,8 +31,8 @@ async function handler(req, res) {
   }
 
   if (req.method === "GET") {
-    const uri =
-      "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+  const uri =
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
     const client = new MongoClient(uri);
 
@@ -61,8 +61,8 @@ async function handler(req, res) {
     console.log(items);
     console.log(sum);
 
-    const uri =
-      "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+  const uri =
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
     const client = new MongoClient(uri);
 
@@ -89,8 +89,8 @@ async function handler(req, res) {
   if (req.method === "DELETE") {
     const items = [];
     const sum = 0;
-    const uri =
-      "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+  const uri =
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
     const client = new MongoClient(uri);
 

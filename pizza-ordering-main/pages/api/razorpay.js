@@ -2,8 +2,8 @@ import Razorpay from "razorpay";
 
 const handler = async (req, res) => {
   var instance = new Razorpay({
-    key_id: "rzp_test_mN1wRwT7pbAZhP",
-    key_secret: "QqDlTPWUBJQg8Kh936Bk8nZJ",
+    key_id: "Enter Your Key ID",
+    key_secret: "Enter Your key secret",
   });
   if (req.method === "POST") {
     const amount = req.body.amount;

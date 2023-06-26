@@ -27,9 +27,8 @@ export default CheeseDetailScreen;
 export async function getStaticProps(context) {
   const id = context.params.cheeseId;
   console.log(id);
-
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 
@@ -69,7 +68,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
   // Create a MongoClient with a MongoClientOptions object to set the Stable API version
   const client = new MongoClient(uri);
 

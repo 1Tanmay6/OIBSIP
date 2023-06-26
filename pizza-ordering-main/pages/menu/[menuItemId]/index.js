@@ -19,7 +19,7 @@ export async function getStaticProps(context) {
   console.log(id);
 
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 
@@ -61,7 +61,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 

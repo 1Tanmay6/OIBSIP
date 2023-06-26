@@ -103,13 +103,3 @@ const ToppingsCurItem = ({ item, type }) => {
 };
 
 export default ToppingsCurItem;
-
-// export async function getStaticProps(context) {
-//   const id = context.params.toppingId;
-//   console.log(`from inside ${id}`);
-//   return {
-//     props: {
-//       id: id,
-//     },
-//   };
-// }

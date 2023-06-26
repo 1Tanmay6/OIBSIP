@@ -24,19 +24,6 @@ const cartSlice = createSlice({
       state.totalQuantity = 0;
       state.total = 0;
     },
-
-    // removeItemFromCart(state, action) {
-    //   const id = action.payload.id;
-    //   const existingItem = state.items.find((item) => item.id === id);
-    //   state.totalQuantity--;
-    //   state.changed = true;
-    //   if (existingItem.quantity === 1) {
-    //     state.items = state.items.filter((item) => item.id !== id);
-    //   } else {
-    //     existingItem.quantity--;
-    //     existingItem.totalPrice = existingItem.totalPrice - existingItem.price;
-    //   }
-    // },
   },
 });
 

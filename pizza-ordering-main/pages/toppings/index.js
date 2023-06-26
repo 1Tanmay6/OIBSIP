@@ -3,34 +3,6 @@ import { MongoClient } from "mongodb";
 import ToppingsSpecialCurItem from "../../components/Menu/MenuUI/toppings/toppingsSpecialCurItem";
 import ToppingsListItems from "../../components/Menu/MenuUI/toppings/ListItems";
 
-// const Dummy_list = [
-//   {
-//     id: 1,
-//     name: "Queen ",
-//     price: 10,
-
-//     image: "/images/Pizza 1.png",
-
-//   },
-
-//   {
-//     id: 2,
-//     name: "Chicken ",
-//     price: 12,
-
-//     image: "/images/Pizza__2(non-veg).png",
-
-//   },
-
-//   {
-//     id: 3,
-//     name: " Tikka",
-//     price: 12,
-
-//     image: "/images/pizza3__sausage.png",
-//
-//   },
-// ];
 
 const Menu = ({ toppingsList }) => {
   return (
@@ -47,7 +19,7 @@ const Menu = ({ toppingsList }) => {
 
 export async function getStaticProps() {
   const uri =
-    "mongodb+srv://user1:someuser@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@reactcluster.qulg5qe.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 

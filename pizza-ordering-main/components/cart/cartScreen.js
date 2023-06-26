@@ -68,7 +68,7 @@ const CartScreen = () => {
     console.log(total * 100);
     const amount = Math.floor(total * 100);
     const options = {
-      key: "rzp_test_mN1wRwT7pbAZhP", // Enter the Key ID generated from the Dashboard
+      key: "Enter your Key", // Enter the Key ID generated from the Dashboard
       amount: amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency: "USD",
       name: "PIZZARIA",
